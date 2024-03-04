@@ -1,0 +1,43 @@
+@charset "utf-8";
+products {width: 70%; margin: 100px auto 0 auto; border:.5px solid #4E4FD0; min-height: 300px; padding: 20px}
+workoutClothes{display:block; margin-bottom: 30px;}
+equipment{display:block; margin-bottom: 30px;}
+supplements{display:block; margin-bottom: 30px;}
+
+workoutClothes name{display:inline-block; font-size: 25px; text-transform: capitalize; font-style: italic;
+    color: #20d4da; width: 160px; font-family: 'Courier New', Courier, monospace; font-weight: bold;}
+equipment name{display:inline-block; font-size: 25px; text-transform: capitalize; font-style: italic;
+    color: #cf76ef; width: 160px; font-family: 'Courier New', Courier, monospace; font-weight: bold;}
+supplements name{display:inline-block; font-size: 25px; text-transform: capitalize; font-style: italic;
+    color: #40b990; width: 160px; font-family: 'Courier New', Courier, monospace; font-weight: bold;}
+
+
+workoutClothes description:before{content: "Description: "; font-size: 16px; font-family: 'Courier New', Courier, monospace; font-weight: bold;}
+workoutClothes description{list-style-type:disc; list-style-position: inside;
+    display:list-item; font-family: 'Courier New', Courier, monospace;}
+workoutClothes price:before{content: "Price: "; font-size: 16px; font-family: 'Courier New', Courier, monospace; font-weight: bold;}
+workoutClothes price{list-style-type:disc; list-style-position: inside;
+    display:list-item; font-family: 'Courier New', Courier, monospace;}
+workoutClothes category:before{content: "Category: "; font-size: 16px; font-family: 'Courier New', Courier, monospace; font-weight: bold;}
+workoutClothes category{list-style-type:disc; list-style-position: inside;
+    display:list-item; font-family: 'Courier New', Courier, monospace;}
+
+equipment description:before{content: "Description: "; font-size: 16px; font-family: 'Courier New', Courier, monospace; font-weight: bold;}
+equipment description{list-style-type:disc; list-style-position: inside;
+    display:list-item; font-family: 'Courier New', Courier, monospace;}
+equipment price:before{content: "Price: "; font-size: 16px; font-family: 'Courier New', Courier, monospace; font-weight: bold;}
+equipment price{list-style-type:disc; list-style-position: inside;
+    display:list-item; font-family: 'Courier New', Courier, monospace;}
+equipment category:before{content: "Category: "; font-size: 16px; font-family: 'Courier New', Courier, monospace; font-weight: bold;}
+equipment category{list-style-type:disc; list-style-position: inside;
+    display:list-item; font-family: 'Courier New', Courier, monospace;}
+
+supplements description:before{content: "Description: "; font-size: 16px; font-family: 'Courier New', Courier, monospace; font-weight: bold;}
+supplements description{list-style-type:disc; list-style-position: inside;
+    display:list-item; font-family: 'Courier New', Courier, monospace;}
+supplements price:before{content: "Price: "; font-size: 16px; font-family: 'Courier New', Courier, monospace; font-weight: bold;}
+supplements price{list-style-type:disc; list-style-position: inside;
+    display:list-item; font-family: 'Courier New', Courier, monospace;}
+supplements category:before{content: "Category: "; font-size: 16px; font-family: 'Courier New', Courier, monospace; font-weight: bold;}
+supplements category{list-style-type:disc; list-style-position: inside;
+    display:list-item; font-family: 'Courier New', Courier, monospace;}
