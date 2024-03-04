@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href = "products.css" ?>
+
+<products>
+    <workoutClothes>
+        <name>leggings</name> 
+        <description>black full length leggings</description> 
+        <price>$65</price> 
+        <category>clothing</category>
+    </workoutClothes>
+
+    <workoutClothes>
+        <name>sports bra</name> 
+        <description>purple medium support</description> 
+        <price>$30</price>
+        <category>clothing</category>
+    </workoutClothes>
+
+    <workoutClothes>
+        <name>shorts</name>
+        <description>blue 5 inch running shorts</description>
+        <price>$40</price>
+        <category>clothing, running</category> 
+    </workoutClothes>
+
+    <workoutClothes>
+        <name>sweatband</name>
+        <description>striped head sweatband</description>
+        <price>$15</price>
+        <category>clothing, running</category>
+    </workoutClothes>
+
+    <equipment>
+        <name>sneakers</name>
+        <description>green running sneakers</description> 
+        <price>$70</price>
+        <category>running</category> 
+    </equipment>
+
+    <equipment>
+        <name>dumbbells</name>
+        <description>20 pound free weight dumbbells</description> 
+        <price>$35</price>
+        <category>lifting</category>
+    </equipment>
+
+    <equipment>
+        <name>resistance bands</name>
+        <description>10 pounds yellow resistance band </description>
+        <price>$10</price>
+        <category>lifting</category>
+    </equipment>
+
+    <supplements>
+        <name>creatine</name> 
+        <description>1000mg creatine pill</description>
+        <price>$20</price>
+        <category>lifting</category>
+    </supplements>
+
+    <supplements>
+        <name>protein powder</name>
+        <description>cookies and cream, 25 grams protein per serving</description>
+        <price>$45</price>
+        <category>lifting</category>
+    </supplements>
+
+    <supplements>
+        <name>caffeine</name>
+        <description>powder, 150mg caffeine per serving</description>
+        <price>$12</price>
+        <category>lifting</category>
+
+    </supplements>
+</products>
